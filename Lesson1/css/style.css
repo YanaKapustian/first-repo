@@ -1,0 +1,27 @@
+
+body {
+	background: orange;
+	font-size: 20px;
+}
+div {
+	font-size: 23px;
+}
+.brown {
+	color: brown;
+}
+a {
+	color: green;
+	background: yellow;
+	height: 30px;
+	width: 30px;
+}
+span {
+	color: purple;
+	font-weight: bold;
+}
+.travel {
+	font-size: 25px;
+}
+.plain {
+	background: pink;
+}
