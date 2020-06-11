@@ -138,6 +138,11 @@ body {
       bottom: 6%;
       border: 1px solid white;
       width: 6px; } }
+@media (max-width: 375px) {
+  .title {
+    top: 30%; }
+    .title__item {
+      font-size: 25px; } }
 .menu {
   background: #3f3f3f; }
   .menu__content {
@@ -209,6 +214,9 @@ body {
     margin-left: 15px; }
   .menu__list {
     display: none; } }
+html {
+  overflow-x: hidden; }
+
 .container {
   margin: 0 auto;
   max-width: 1000px; }
@@ -281,6 +289,12 @@ body {
   .main__text {
     width: 100%; } }
 @media (max-width: 480px) {
+  html {
+    overflow-x: hidden; }
+
+  .about-me__photo {
+    max-width: 90%;
+    overflow: hidden; }
   .about-me__row {
     margin-top: 30px;
     display: inline-block;
