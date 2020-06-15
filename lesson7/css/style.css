@@ -289,6 +289,18 @@ html {
     .container .my-skills__block {
       width: 90%;
       margin: 0 auto;
+      margin-bottom: 10px; }
+  .container .my-education {
+    display: block; }
+    .container .my-education__block {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+  .container .my-work {
+    display: block; }
+    .container .my-work__block {
+      width: 90%;
+      margin: 0 auto;
       margin-bottom: 10px; } }
 @media (max-width: 480px) {
   html {
@@ -411,14 +423,79 @@ html {
     color: #3b3b3b;
     margin: 0;
     line-height: 1.5; }
+    .my-education__title_small {
+      font-size: 20px;
+      margin-top: 50px; }
   .my-education__subtitle {
     font-size: 18px;
     color: #696969;
-    line-height: 1.7;
-    margin-bottom: 30px; }
+    line-height: 1.7; }
+    .my-education__subtitle_dark {
+      color: #292929; }
   .my-education__block {
     width: 45%; }
-    .my-education__block_down {
+  .my-education__green {
+    background: #67ddd1;
+    height: 25px;
+    width: 65px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .my-education__subtitle-line {
+    font-size: 18px;
+    color: #696969;
+    line-height: 1.7; }
+  .my-education__subtitle-line::before {
+    content: '';
+    display: block;
+    background: #b2b2b2;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0; }
+
+.my-work {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px; }
+  .my-work__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #3b3b3b;
+    margin: 0;
+    line-height: 1.5; }
+    .my-work__title_small {
+      font-size: 20px;
       margin-top: 50px; }
+  .my-work__subtitle {
+    font-size: 18px;
+    color: #696969;
+    line-height: 1.7; }
+    .my-work__subtitle_dark {
+      color: #292929; }
+  .my-work__block {
+    width: 45%; }
+  .my-work__green {
+    background: #67ddd1;
+    height: 25px;
+    width: 65px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .my-work__subtitle-line {
+    font-size: 18px;
+    color: #696969;
+    line-height: 1.7; }
+  .my-work__subtitle-line::before {
+    content: '';
+    display: block;
+    background: #b2b2b2;
+    height: 1px;
+    width: 100%;
+    margin: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
