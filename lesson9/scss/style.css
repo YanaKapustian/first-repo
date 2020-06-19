@@ -256,8 +256,7 @@ html {
   .about-me__subtitle {
     font-size: 18px;
     color: #696969;
-    line-height: 1.7;
-    margin-bottom: 0; }
+    line-height: 1.7; }
   .about-me__item {
     display: inline-block;
     margin-left: 15px; }
@@ -266,11 +265,6 @@ html {
     display: flex;
     align-items: flex-start;
     justify-content: space-between; }
-  .about-me__block {
-    display: flex; }
-  .about-me__pic {
-    object-fit: contain;
-    margin-top: -40px; }
 
 .my-skills {
   display: flex;
@@ -574,36 +568,34 @@ html {
   .goal__text {
     width: 100%; }
 
-  .container {
-    max-width: 600px; }
-    .container .my-skills {
-      display: inline-block; }
-      .container .my-skills__block {
-        width: 90%;
-        margin: 0 auto;
-        margin-bottom: 10px; }
-    .container .my-education__main {
-      display: block; }
-    .container .my-education__block {
+  .container .my-skills {
+    display: inline-block; }
+    .container .my-skills__block {
       width: 90%;
       margin: 0 auto;
       margin-bottom: 10px; }
-    .container .my-education__title {
-      width: 90%;
-      margin: 0 auto; }
-      .container .my-education__title_small {
-        margin: 0; }
-    .container .my-work__main {
-      display: block; }
-    .container .my-work__block {
-      width: 90%;
-      margin: 0 auto;
-      margin-bottom: 10px; }
-    .container .my-work__title {
-      width: 90%;
-      margin: 0 auto; }
-      .container .my-work__title_small {
-        margin: 0; }
+  .container .my-education__main {
+    display: block; }
+  .container .my-education__block {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .container .my-education__title {
+    width: 90%;
+    margin: 0 auto; }
+    .container .my-education__title_small {
+      margin: 0; }
+  .container .my-work__main {
+    display: block; }
+  .container .my-work__block {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+  .container .my-work__title {
+    width: 90%;
+    margin: 0 auto; }
+    .container .my-work__title_small {
+      margin: 0; }
 
   .portfolio__block {
     display: block; }
@@ -616,43 +608,23 @@ html {
     overflow-x: hidden; }
 
   .about-me__photo {
-    max-width: 80%;
+    max-width: 90%;
     overflow: hidden; }
-  .about-me__subtitle {
-    margin: 0; }
-  .about-me__block {
-    padding: 15px 0; }
   .about-me__row {
-    margin-top: 0px;
+    margin-top: 30px;
     display: inline-block;
     align-items: flex-start;
     justify-content: space-between; }
     .about-me__row__pic {
-      display: flex;
-      text-align: center;
       position: absolute;
       left: 0px;
-      top: 0px; }
+      top: 0; }
   .about-me__item {
     position: relative; }
 
-  .portfolio__block {
-    display: block;
-    text-align: center; }
   .portfolio__pic {
     max-width: 300px;
-    margin: 5px 0; }
-  .portfolio__block-pic {
-    max-width: 300px;
-    height: 246px; }
-  .portfolio__glass {
-    position: absolute;
-    top: 88px;
-    left: 115px;
-    display: none; }
-
-  .quote .container {
-    max-width: 350px; } }
+    margin: 5px; } }
 .contact-me {
   background: #3b3b3b;
   padding: 50px 0; }
@@ -747,62 +719,5 @@ html {
   .feedback__icon:hover {
     fill: white;
     transition: .2s; }
-
-@media (max-width: 768px) {
-  html {
-    overflow-x: hidden; }
-
-  .footer .contact-me {
-    margin-top: 1750px; }
-    .footer .contact-me__content {
-      display: block; }
-    .footer .contact-me__block {
-      max-width: 100%;
-      margin-top: 45px; }
-    .footer .contact-me__title {
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 30px;
-      color: white;
-      line-height: 1.5; }
-    .footer .contact-me input {
-      width: 100%; }
-    .footer .contact-me textarea {
-      display: block;
-      width: 100%;
-      height: 200px;
-      font-size: 15px;
-      background: #696969;
-      outline-style: none;
-      border-style: none; } }
-@media (max-width: 480px) {
-  html {
-    overflow-x: hidden; }
-
-  .footer .contact-me {
-    margin-top: 1350px; }
-    .footer .contact-me .container {
-      max-width: 350px; }
-    .footer .contact-me__content {
-      display: block; }
-    .footer .contact-me__block {
-      max-width: 100%;
-      margin-top: 45px; }
-    .footer .contact-me__title {
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: 30px;
-      color: white;
-      line-height: 1.5; }
-    .footer .contact-me input {
-      width: 100%; }
-    .footer .contact-me textarea {
-      display: block;
-      width: 100%;
-      height: 200px;
-      font-size: 15px;
-      background: #696969;
-      outline-style: none;
-      border-style: none; } }
 
 /*# sourceMappingURL=style.css.map */
