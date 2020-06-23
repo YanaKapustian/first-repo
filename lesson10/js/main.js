@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$(".quote__dot:first").addClass("active");
+	$(".quote__dot").click(function(){
+		$(this).addClass("active").siblings().removeClass("active");
+	});
+	$(".portfolio__filter__subtitle:first").addClass("active");
+		$(".portfolio__filter__subtitle").click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+	});
+	$(".menu__burger").click(function(){
+		$(".menu__list").toggleClass("shown");
+		$(".menu__burgerline1").toggleClass("click1");
+		$(".menu__burgerline2").toggleClass("click2");
+		$(".menu__burgerline3").toggleClass("click3");
+	});
+	$(".header__dot:first").addClass("active");
+		$(".header__dot").click(function(){
+			$(this).addClass("active").siblings().removeClass("active");
+	});
+});
