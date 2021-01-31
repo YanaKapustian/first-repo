@@ -1,0 +1,123 @@
+body{
+	font-family:  Geneva, Arial, Helvetica, sans-serif;
+	background-color: #f1e0e8;
+	margin: 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.block{
+	display: flex;
+	margin-bottom: 70px;
+	margin-top: 15px;
+}
+.photo{
+	width: 400px;
+	margin: 0 auto;
+}
+.photo_block{
+	width: 50%;
+	display: flex;
+}
+.text{
+	padding: 0px;
+	margin: 40px;
+	margin-left: 40px;
+	width: 50%;
+}
+h1{
+	line-height: 0;
+}
+h2{
+	line-height: 2;
+	padding-top: 20px;
+}
+.info{
+	font-size: 25px;
+}
+.info_big{
+	font-size: 35px;
+}
+.item{
+	font-size: 25px;
+	margin: 10px;
+}
+.footer{
+	width: 100%;
+	background-color: #656565;
+	margin: 0;
+	margin-top: 60px;
+	padding: 30px 0;
+}
+.container2{
+	width: 70%;
+	margin: 0 auto;
+}
+.info_large{
+	font-size: 30px;
+	color: #f1e0e8;
+	margin: 0;
+}
+.info_large_bl{
+	font-size: 40px;
+	color: black;
+}
+.info_big1{
+	font-size: 30px;
+}
+.contact{
+	display: flex;
+	justify-content: space-between;
+}
+.info__color{
+	font-size: 25px;
+	color: #f1e0e8;
+	margin: 0;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: purple;
+}
+.bio_item{
+	font-size: 25px;
+	margin: 10px;
+}
+.bio_img{
+	width: 400px;
+}
+.bio_block{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+.house{
+	position: absolute;
+	top: 35px;
+	right: 90px;
+	width: 30px;
+	fill: #c1c1c1;
+}
+.house:hover{
+	fill: black;
+}
+.heart{
+	width: 15px;
+	height: 15px;
+	margin: 2px;
+}
+.hobby_bp{
+	width: 350px;
+	margin: 10px 0;
+}
+.hobby_img{
+	display: flex;
+	justify-content: space-around;
+}
+.hobby_mg{
+	margin: 30px 0;
+}
