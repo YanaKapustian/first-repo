@@ -21,7 +21,7 @@
 				<p class="pop-up__text_bold">Take the free quiz here!</p> 
 			</div></a>
 		</div>
-		<div class="pop-up__close"><svg class="pop-up__closepic" viewBox="0 0 348.333 348.334" style="enable-background:new 0 0 348.333 348.334;"
+		<button class="pop-up__close"><svg class="pop-up__closepic" viewBox="0 0 348.333 348.334" style="enable-background:new 0 0 348.333 348.334;"
 				 		xml:space="preserve">
 						<path d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85
 							c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563
@@ -29,7 +29,7 @@
 							l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554
 							L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z"/>
 					</svg>
-		</div>
+		</button>
 	</div>
 	<div class="menu">
 		<div class="menu__logo">
@@ -72,8 +72,8 @@
 				<h1 class="main__title main__title-grey">Prepositions of Time</h1>
 				<p class="main__info">Put in the correct preposition (choose in / on / at). If no preposition is needed put in -.</p>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">1) Lucy is arriving <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">1) Lucy is arriving <input type="text" id="on" class="main__input 1">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 1_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -81,10 +81,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 1_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					February the 13th <input type="text" class="main__input_at main__input">
-					 	<svg viewBox="0 0 512 512" class="main__tick hidden">
+					February the 13th <input type="text" id="at" class="main__input 1">
+					 	<svg viewBox="0 0 512 512" class="main__tick hidden 1_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -92,10 +92,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 1_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					eight o'clock <input type="text" class="main__input_in main__input"> 
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					eight o'clock <input type="text" id="in" class="main__input 1"> 
+						<svg viewBox="0 0 512 512" class="main__tick hidden 1_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -103,22 +103,22 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 1_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					the morning.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">on</span> ] [ <span class="main__ans hidden">at</span> ] [ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 1_answer">on</span> ] [ <span class="main__ans hidden 1_answer">at</span> ] [ <span class="main__ans hidden 1_answer">in</span> ]</p>
 					</div>
 					</div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="1">Check</button>
+						<button class="main__show" id="1">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">2) The weather is often terrible in London <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">2) The weather is often terrible in London <input type="text" id="in" class="main__input 2">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 2_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -126,21 +126,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 2_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					January.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 2_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="2">Check</button>
+						<button class="main__show" id="2">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">3) It's better to get taxi if you are out alone <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">3) It's better to get taxi if you are out alone <input type="text" id="at" class="main__input 3">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 3_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -148,21 +148,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 3_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					night.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 3_answer">at</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="3">Check</button>
+						<button class="main__show" id="3">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">4) She got married <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">4) She got married <input type="text" id="in" class="main__input 4">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 4_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -170,21 +170,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 4_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					September.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 4_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="4">Check</button>
+						<button class="main__show" id="4">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">5) They usually go to the south of France <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">5) They usually go to the south of France <input type="text" id="in" class="main__input 5">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 5_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -192,21 +192,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 5_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					the summer.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 5_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="5">Check</button>
+						<button class="main__show" id="5">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">6) Columbus sailed to the Americas <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">6) Columbus sailed to the Americas <input type="text" id="in" class="main__input 6">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 6_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -214,21 +214,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 6_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					the 16th century.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 6_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="6">Check</button>
+						<button class="main__show" id="6">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">7) The Beatles were popular <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">7) The Beatles were popular <input type="text" id="in" class="main__input 7">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 7_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -236,21 +236,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 7_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					the 1960s.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 7_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="7">Check</button>
+						<button class="main__show" id="7">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">8) I graduated from university <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">8) I graduated from university <input type="text" id="in" class="main__input 8">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 8_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -258,21 +258,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 8_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					2001.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 8_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="8">Check</button>
+						<button class="main__show" id="8">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">9) His birthday is <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">9) His birthday is <input type="text" id="in" class="main__input 9">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 9_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -280,21 +280,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 9_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					June.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 9_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="9">Check</button>
+						<button class="main__show" id="9">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">10) I usually go to my parents' house <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">10) I usually go to my parents' house <input type="text" id="at" class="main__input 10">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 10_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -302,10 +302,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 10_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					Christmas. We eat turkey together <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					Christmas. We eat turkey together <input type="text" id="on" class="main__input 10">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 10_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -313,20 +313,20 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 10_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg> Christmas Day.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ] [ <span class="main__ans hidden">on</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 10_answer">at</span> ] [ <span class="main__ans hidden 10_answer">on</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="10">Check</button>
+						<button class="main__show" id="10">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">11) The train leaves <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">11) The train leaves <input type="text" id="-" class="main__input 11">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 11_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -334,10 +334,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 11_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					tomorrow morning <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					tomorrow morning <input type="text" id="at" class="main__input 11">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 11_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -345,20 +345,20 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 11_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg> 8:00 am.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">-</span> ] [ <span class="main__ans hidden">at</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 11_answer">-</span> ] [ <span class="main__ans hidden 11_answer">at</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="11">Check</button>
+						<button class="main__show" id="11">Show</button>
 					</div>
 
 				</div>
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">12) I love going skiing <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">12) I love going skiing <input type="text" id="in" class="main__input 12">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 12_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -366,20 +366,20 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 12_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					January.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 12_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="12">Check</button>
+						<button class="main__show" id="12">Show</button>
 					</div>
 				</div>
 					<div class="main__item">
-					<div class="main__row"><p class="main__text">13) We met at the restaurant <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">13) We met at the restaurant <input type="text" id="at" class="main__input 13">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 13_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -387,21 +387,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 13_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					8pm.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 13_answer">at</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="13">Check</button>
+						<button class="main__show" id="13">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">14) The class is <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">14) The class is <input type="text" id="at" class="main__input 14">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 14_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -409,10 +409,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 14_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					9am <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					9am <input type="text" id="on" class="main__input 14">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 14_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -420,20 +420,20 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 14_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg> Monday mornings.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ] [ <span class="main__ans hidden">on</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 14_answer">at</span> ] [ <span class="main__ans hidden 14_answer">on</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="14">Check</button>
+						<button class="main__show" id="14">Show</button>
 					</div>
 				</div>
 
 					<div class="main__item">
-					<div class="main__row"><p class="main__text">15) I like to drink coffee <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">15) I like to drink coffee <input type="text" id="in" class="main__input 15">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 15_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -441,10 +441,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 15_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					the morning and tea <input type="text" class="main__input_in main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					the morning and tea <input type="text" id="in" class="main__input 15">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 15_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -452,20 +452,20 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 15_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg> the afternoon.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">in</span> ] [ <span class="main__ans hidden">in</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 15_answer">in</span> ] [ <span class="main__ans hidden 15_answer">in</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="15">Check</button>
+						<button class="main__show" id="15">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">16) We went out for dinner <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">16) We went out for dinner <input type="text" id="-" class="main__input 16">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 16_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -473,21 +473,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 16_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					last Wednesday.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">-</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 16_answer">-</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="16">Check</button>
+						<button class="main__show" id="16">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">17) She left London <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">17) She left London <input type="text" id="on" class="main__input 17">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 17_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -495,21 +495,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 17_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					the 4th of March.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">on</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 17_answer">on</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="17">Check</button>
+						<button class="main__show" id="17">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">18) I had a party <input type="text" class="main__input_on main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">18) I had a party <input type="text" id="on" class="main__input 18">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 18_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -517,21 +517,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 18_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					my birthday.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">on</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 18_answer">on</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="18">Check</button>
+						<button class="main__show" id="18">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">19) Lucy went to New York <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">19) Lucy went to New York <input type="text" id="at" class="main__input 19">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 19_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -539,21 +539,21 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 19_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
 					New Year.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 19_answer">at</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="19">Check</button>
+						<button class="main__show" id="19">Show</button>
 					</div>
 				</div>
 
 				<div class="main__item">
-					<div class="main__row"><p class="main__text">20) We're meeting <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					<div class="main__row"><p class="main__text">20) We're meeting <input type="text" id="at" class="main__input 20">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 20_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -561,10 +561,10 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 20_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg>
-					lunchtime <input type="text" class="main__input_at main__input">
-						<svg viewBox="0 0 512 512" class="main__tick hidden">
+					lunchtime <input type="text" id="-" class="main__input 20">
+						<svg viewBox="0 0 512 512" class="main__tick hidden 20_tick">
 						<path style="fill:#88da53;" d="M433.139,67.108L201.294,298.953c-6.249,6.249-16.381,6.249-22.63,0L78.861,199.15L0,278.011
 							l150.547,150.549c10.458,10.458,24.642,16.333,39.431,16.333l0,0c14.788,0,28.973-5.876,39.43-16.333L512,145.968L433.139,67.108z"
 							/>
@@ -572,14 +572,14 @@
 							<path d="M485.921,119.888L187.59,418.22c-8.254,8.253-18.633,13.882-29.847,16.391c9.363,6.635,20.608,10.28,32.235,10.28l0,0
 								c14.788,0,28.973-5.876,39.43-16.333L512,145.966L485.921,119.888z"/>
 						</g></svg>
-						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden">
+						<svg viewBox="0 0 512.001 512.001" class="main__cross hidden 20_cross">
 						<path d="m512.001 84.853-84.853-84.853-171.147 171.147-69.853 84.853 69.853 84.854 171.147 171.147 84.853-84.853-171.148-171.148z" fill="#cc3245"/><path d="m84.853 0-84.853 84.853 171.148 171.147-171.148 171.148 84.853 84.853 171.148-171.147v-169.707z" fill="#ff3e3a"/></g></svg> next Tuesday.</p>
 					<div class="main__correct">
-						<p class="main__answer">[ <span class="main__ans hidden">at</span> ] [ <span class="main__ans hidden">-</span> ]</p>
+						<p class="main__answer">[ <span class="main__ans hidden 20_answer">at</span> ] [ <span class="main__ans hidden 20_answer">-</span> ]</p>
 					</div></div>
 					<div class="main__buttons">
-						<div class="main__check">Check</div>
-						<div class="main__show">Show</div>
+						<button class="main__check" id="20">Check</button>
+						<button class="main__show" id="20">Show</button>
 					</div>
 				</div>
 
@@ -609,18 +609,20 @@
 				<h1 class="form__title">Speak and write <br>more correct,<br> more beautiful <br>English</h1>
 				<p class="form__text">Join my newsletter and get my new lessons by email</p>
 				<p class="form__text">(also get my free tenses PDFs when you join)</p>
-				<input type="email" class="form__input" required placeholder="Your email adress">
-				<select class="form__select" required>
-					<option value="">Please choose your English level</option>
-					<option value="">I'm a beginner (A1)</option>
-					<option value="">I'm elementary level (A2)</option>
-					<option value="">I'm intermediate (B1)</option>
-					<option value="">I'm upper intermediate (B2)</option>
-					<option value="">I'm advanced (C1/C2)</option>
-					<option value="">I'm a teacher</option>
-					<option value="">I don't know my level</option>
-				</select>
-				<div class="form__button">Click here to join</div>
+				<form action="#">
+					<input type="email" class="form__input" required placeholder="Your email adress" autocomplete="on">
+					<select class="form__select" required>
+						<option value="">Please choose your English level</option>
+						<option value="beginner">I'm a beginner (A1)</option>
+						<option value="elementary">I'm elementary level (A2)</option>
+						<option value="intermediate">I'm intermediate (B1)</option>
+						<option value="upperintermediate">I'm upper intermediate (B2)</option>
+						<option value="advanced">I'm advanced (C1/C2)</option>
+						<option value="teacher">I'm a teacher</option>
+						<option value="don'tknow">I don't know my level</option>
+					</select>
+					<button class="form__button">Click here to join</button>
+				</form>
 				<p class="form__text form__text_small"><u>Privacy policy here</u>. We won't send you spam.<br> Unsubscribe at any time.</p>	
 			</div>
 		</div>
@@ -629,4 +631,3 @@
 </body>
 </html>
 
-<!-- 340,600 -->

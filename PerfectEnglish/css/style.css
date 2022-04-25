@@ -49,6 +49,7 @@ body {
   .pop-up__color:hover {
     background-color: #b948e1; }
   .pop-up__close {
+    border: none;
     width: 50px;
     height: 50px;
     background-color: #db96ef;
@@ -273,7 +274,8 @@ body {
   border-radius: 4px;
   padding: 0px 8px;
   margin: 10px auto;
-  cursor: pointer; }
+  cursor: pointer;
+  border: none; }
 
 .hidden {
   display: none; }
