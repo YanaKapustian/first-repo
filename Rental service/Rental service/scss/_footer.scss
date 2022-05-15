@@ -1,0 +1,88 @@
+.reviews{
+    margin-top: 100px;
+    &__container{
+        overflow: hidden;
+    }
+    &__subtitle{
+        font-size: 16px;
+        font-weight: 600;
+        color: $orange;
+        margin: 0 auto;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__title{
+        color: #030A1B;
+        font-size: 44px;
+        font-weight: 600;
+        margin: 10px auto;
+        position: relative;
+        width: 633px;
+        margin-bottom: 50px;
+    }
+    &__item{
+        min-width: 42%;
+        height: 200px;
+        border: 2px solid #fe753f1f;
+        border-radius: 15px;
+        margin: 0 15px;
+        padding: 30px;
+    }
+    &__name{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    &__position{
+        font-size: 16px;
+        font-weight: 400;
+        opacity: .7;
+    }
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+    }
+    &__person{
+        margin-left: 25px;
+    }
+    &__person p{
+        margin: 2px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        opacity: .7;
+        margin-top: 30px;
+    }
+    img {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    &__dots{
+        width: 80px;
+        height: 12px;
+        margin: 40px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__dot{
+        background-color: #EDEDED;
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        cursor: pointer;
+    }
+    &__track{
+        display: flex;
+    }
+}
+
+.active {
+    background-color: $blue;
+}
